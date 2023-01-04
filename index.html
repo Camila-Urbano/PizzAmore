@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4380b6d3aa.js" crossorigin="anonymous"></script>
+    <title>PizzAmore</title>
+    <link rel="stylesheet" href="./css/Generales.css">
+    <link rel="stylesheet" href="./css/Header.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/Tarifas.css">
+    <link rel="stylesheet" href="./css/Contacto.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+
+            <h1>PizzAmore</h1>
+            <div class="divisor"></div>
+
+        </div>
+
+        <div class="menu_navegacion">
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#tarifa">Tarifas de domicilios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <i class="fa-solid fa-bars" id="bars"></i>
+
+    </header>
+
+    <section class="inicio" id="inicio">
+
+        <div class="contenido_inicio">
+
+            <h2>Bienbenidos a <span>PizzAmore</span></h2>
+
+           <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Recusandae laudantium ipsa, repellat doloribus minus illo 
+            praesentium unde aliquam corrupti asperiores iusto porro, 
+            tempora fugit blanditiis eaque? Maxime explicabo ducimus laboriosam!
+           </p>
+
+           <a href="https://wa.me/573187302078?text=Buanas, me gustaria hacer un pedido." target="_blank"><i class="fa-brands fa-whatsapp"></i> Hacer Pedido</a>
+
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+
+        <h2>Menú</h2>
+
+        
+        <div class="productos">
+
+            <div class="pizza" data-name="p_1">
+                <img src="./img/pizza-margarita.avif" alt="">
+                <h3>Pizza Margarita</h3>
+                <div class="precio">$34.000</div>
+            </div>
+
+            <div class="pizza" data-name="p_2">
+                <img src="./img/pizza-de-chorizo.avif" alt="">
+                <h3>Pizza de pepperoni</h3>
+                <div class="precio">$35.000</div>
+            </div>
+
+            <div class="pizza" data-name="p_3">
+                <img src="./img/pizza-hawaiana.avif" alt="">
+                <h3>Pizza hawaiana</h3>
+                <div class="precio">$34.000</div>
+            </div>
+
+            <div class="pizza" data-name="p_4">
+                <img src="./img/pizza-argentina.avif" alt="">
+                <h3>Pizza argentina</h3>
+                <div class="precio">$30.000</div>
+            </div>
+
+            <div class="pizza" data-name="p_5">
+                <img src="./img/pizza-con-champinones-y-pepperoni.avif" alt="">
+                <h3>Pizza con champinones y pepperoni</h3>
+                <div class="precio">$43.000</div>
+            </div>
+
+            <div class="pizza" data-name="p_6">
+                <img src="./img/pizza-cuatro-quesos.avif" alt="">
+                <h3>Pizza 4 quesos</h3>
+                <div class="precio">$30.000</div>
+            </div>
+            
+
+        </div>
+
+        <div class="productos_preview">
+
+            <div class="pizza_preview " data-targeta="p_1">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-margarita.avif" alt="">
+                <h3>Pizza Margarita</h3>
+                <p>
+                    La pizza Margarita lleva tomate, queso mozzarella y un toque de albahaca.
+                </p>
+                
+                <div class="precio">$34.000</div>
+            </div>
+
+            <div class="pizza_preview " data-targeta="p_2">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-de-chorizo.avif" alt="">
+                <h3>Pizza de pepperoni</h3>
+                <p>
+                    La mezcla de pepperoni y queso siempre a ligado muy bien. 
+                    Si además añadimos una buena masa de pizza, tomate y orégano.
+                </p>
+                
+                <div class="precio">$35.000</div>
+            </div>
+
+            <div class="pizza_preview" data-targeta="p_3">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-hawaiana.avif" alt="">
+                <h3>Pizza hawaiana</h3>
+                <p>
+                    La piña y el jamón cocido son los ingredientes principales de esta deliciosa pizza.
+                </p>
+                <div class="precio">$34.000</div>
+            </div>
+
+            <div class="pizza_preview" data-targeta="p_4">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-argentina.avif" alt="">
+                <h3>Pizza argentina</h3>
+                <p>
+                    Los ingredientes principales de la Pizza Argentina son el tomate, 
+                    la cebolla y el queso. 
+                </p>
+                <div class="precio">$30.000</div>
+            </div>
+
+            <div class="pizza_preview" data-targeta="p_5">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-con-champinones-y-pepperoni.avif" alt="">
+                <h3>Pizza con champinones y pepperoni</h3>
+                <p>
+                    Si te gusta el pepperoni esta es tu pizza. Una combinación de este delicioso ingrediente 
+                    con champiñones, tomate y queso.
+                </p>
+                <div class="precio">$43.000</div>
+            </div>
+
+            <div class="pizza_preview " data-targeta="p_6">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="./img/pizza-cuatro-quesos.avif" alt="">
+                <h3>Pizza 4 quesos</h3>
+                <p>
+                    Una combinación de queso Fontina, queso Mozzarela, queso Parmigiano Reggiano y queso Gorgonzola
+                </p>
+                <div class="precio">$30.000</div>
+            </div>
+
+        </div>
+    
+    </section>
+
+
+    <section id="tarifa">
+
+        <h2>Tarifas de domicilios</h2>
+
+        <table style="width:100%">
+            <tr>
+              <th>Barrio</th>
+              <th>Tarifa</th>
+            </tr>
+            <tr>
+              <td>Miraflores</td>
+              <td>$6.000</td>
+            </tr>
+            <tr>
+              <td>3 de Julio</td>
+              <td>$5.000</td>
+            </tr>
+            <tr>
+                <td>La Alameda</td>
+                <td>$5.500</td>
+            </tr>
+            <tr>
+                <td>Bretana</td>
+                <td>$5.500</td>
+            </tr>
+            <tr>
+                <td>El Sindicato</td>
+                <td>$4.000</td>
+            </tr>
+            <tr>
+                <td>los Cambulos</td>
+                <td>$6.000</td>
+            </tr>
+            <tr>
+                <td>San Cayetano</td>
+                <td>$6.500</td>
+            </tr>
+          </table>
+
+    </section>
+
+    <section id="contacto">
+
+        <h2 style="color: rgb(230, 133, 7); text-align: center;">Contacto</h2>
+
+        <div class="container_contacto">
+
+            <div class="atencion_cliente">
+
+                <h5>Atención al cliente</h5>
+
+                <h2 style="color: rgb(230, 133, 7); margin-bottom: 20px;">Horario</h2>
+    
+                <p style="margin-bottom: 20px;">
+                    Atendemos todos los días del año, incluido los domingos y festivos.
+                </p>
+    
+                <h2>Servicio de domicilios: <span>10:00 am - 10:00 pm</span></h2>
+                <h2>Servicio de comedor: <span>10:30 am - 08:00 pm</span></h2>
+                
+            </div>
+    
+            <div class="restaurante">
+    
+                <h5>Pizzeria</h5>
+    
+                <h2 style="color: rgb(230, 133, 7); margin-bottom: 20px;">Ubicación</h2>
+                <div class="divisor_u"></div>
+    
+                <h3>Dirección:</h3>
+                <p style="margin-bottom: 20px;">
+                    Calle xx # xx-xx 
+                    Barrio xxxxxxxxxx, Cali, Colombia
+                </p>
+    
+                <h3>Telefonos:</h3>
+                <p>602 xxx - xxxx / 602 xxx - xxxx</p>
+                <p>602 xxx - xxxx / 602 xxx - xxxx</p>
+    
+                <div class="iconos">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+        
+            </div>
+
+        </div>
+
+        <div class="mapa">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.587228803013!2d-76.55373178628537!3d3.435829015147695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a68310300075%3A0xd88e534efc39f505!2sParque%20Del%20Perro!5e0!3m2!1ses!2sco!4v1672782423385!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+    </section>
+
+    <div class="footer"> 
+        Footer
+    </div>
+
+
+    <script src="./js/header.js"></script>
+    <script src="./js/menu-navegacion.js"></script>
+    <script src="./js/menu.js"></script>
+    
+</body>
+</html>

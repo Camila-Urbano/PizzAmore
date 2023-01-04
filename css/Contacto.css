@@ -1,0 +1,75 @@
+#contacto
+{
+    max-width: 100%;
+    padding: 3rem 2rem;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+#contacto .container_contacto
+{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.atencion_cliente, .restaurante
+{
+    width: 50%;
+    text-align: center;
+    color: rgb(236, 234, 234);
+}
+
+.atencion_cliente
+{
+    border-right: 1px solid rgb(230, 133, 7);
+}
+
+.atencion_cliente h2 span
+{
+    color: rgb(230, 133, 7);
+}
+
+/*************************************** ICONOS ******************************************/
+
+.iconos
+{
+    color: rgb(230, 133, 7);
+    font-size: 18px;
+}
+
+.iconos i
+{
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+.iconos i:hover
+{
+    color: rgb(179, 102, 1);
+    font-size: 18.5px;
+}
+
+/********************************************************************************************/
+
+@media (max-width: 500px)
+{
+    #contacto .container_contacto
+    {
+        display: block;
+    }
+
+    .atencion_cliente
+    {
+        border-right: none;
+        border-bottom: 1px solid rgb(230, 133, 7);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .atencion_cliente, .restaurante
+    {
+        width: 100%;
+    }
+
+}
